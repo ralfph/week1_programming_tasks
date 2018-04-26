@@ -1,0 +1,14 @@
+Zad1.
+Napisz funkcje do działania na liście jednokierunkowej, której elementy będą składać się ze struktury:
+
+struct Node{
+int val;
+Node* next;
+};
+
+Powinna to być funkcja do wstawiania elementu do listy (trzeba rozważyć miejsce wstawiania), oraz funkcja do usuwania elementów(Node) zawierających parzystą wartość pola val. Można rozważyć użycie wartownika. 
+
+
+Zad2.
+Funkcja do sprawdzania czy suma elementów pod główną przekątną macierzy kwadratowej
+różni sie najwyżej o k(parametr) od sumy elementów o obu indeksach nieparzystych (i,j nieparzyste).
